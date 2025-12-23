@@ -7,7 +7,7 @@ import { easing } from 'maath'
 
 export const App = () => (
   <Canvas camera={{ position: [0, 0, 10], fov: 35 }}>
-    {/* Step 1: Scroll Setup - Pages decide kitna lamba scroll hoga */}
+    
     <ScrollControls pages={3} infinite>
       <Scene />
     </ScrollControls>
