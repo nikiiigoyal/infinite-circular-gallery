@@ -41,8 +41,8 @@ function Carousel({ radius, count }) {
           <Card
             key={i}
             position={[Math.sin(angle) * radius, 0, Math.cos(angle) * radius]}
-            rotation={[0, angle, 0]} // Image ka face center ki taraf
-            url={`https://picsum.photos/seed/${i}/400/600`} // Placeholder images
+            rotation={[0, angle, 0]} 
+            url={`https://picsum.photos/seed/${i}/400/600`} 
           />
         )
       })}
